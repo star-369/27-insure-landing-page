@@ -1,0 +1,12 @@
+.peer:checked ~ label .open-menu {
+  display: none;
+}
+.peer:checked ~ label .close-menu {
+  display: block;
+}
+.peer:checked ~ div {
+  transform: translateX(0);
+}
+.peer ~ label .close-menu {
+  display: none;
+}
